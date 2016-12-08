@@ -1,0 +1,42 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-camera": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-camera@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-geolocation": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-geolocation@~2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.cordova.plugins.sms": {
+        "source": {
+            "type": "local",
+            "path": "E:\\WorkingFolder\\cordova-sms-plugin-master\\cordova-sms-plugin-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "F:\\DownloadedProjects\\cordova-plugin-device-master"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

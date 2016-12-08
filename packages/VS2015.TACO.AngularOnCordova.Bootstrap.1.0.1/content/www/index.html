@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>Cgi.Clg.Sherb.CordovaApp1</title>
+
+    <!-- Third parties -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/snap.css" rel="stylesheet" />
+    <!-- Cgi.Clg.Sherb.CordovaApp1 references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body id="pg-ngapp" class="snapjs-left">
+    <div class="snap-drawers">
+        <sidebar>
+            <nav>
+                <ul class="nav">
+                    <li role="presentation"><a href="#/">Home</a></li>
+                    <li role="presentation"><a href="#/settings">Settings</a></li>
+                </ul>
+            </nav>
+        </sidebar>
+    </div>
+    <div id="content" class="snap-content">
+        <toolbar>
+            <div>AngularJS on Cordova</div>
+        </toolbar>
+        <div role="main" data-ng-view=""></div>
+    </div>
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <!-- Angular -->
+    <script src="scripts/angular-1.4.7/angular.js"></script>
+    <script src="scripts/angular-1.4.7/angular-animate.js"></script>
+    <script src="scripts/angular-1.4.7/angular-aria.js"></script>
+    <script src="scripts/angular-1.4.7/angular-cookies.js"></script>
+    <script src="scripts/angular-1.4.7/angular-loader.js"></script>
+    <script src="scripts/angular-1.4.7/angular-message-format.js"></script>
+    <script src="scripts/angular-1.4.7/angular-messages.js"></script>
+    <script src="scripts/angular-1.4.7/angular-resource.js"></script>
+    <script src="scripts/angular-1.4.7/angular-route.js"></script>
+    <script src="scripts/angular-1.4.7/angular-sanitize.js"></script>
+    <script src="scripts/angular-1.4.7/angular-touch.js"></script>
+    <!-- Angular App -->
+    <script src="scripts/app/pg.ngapp.js"></script>
+    <script src="scripts/app/pg.ngroute.js"></script>
+    <script src="scripts/app/factories/pg.ngfactories.js"></script>
+    <script src="scripts/app/directives/pg.ngdirectives.js"></script>
+    <!-- App controllers -->
+    <script src="scripts/app/controllers/landing.js"></script>
+    <script src="scripts/app/controllers/settings.js"></script>
+    <!-- JQuery, Bootstrap-->
+    <script src="scripts/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+    <script src="scripts/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <!-- Third parties -->
+    <script src="scripts/snap.js/snap.min.js"></script>
+    <!-- Cordova application initializer -->
+    <script src="scripts/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+     "android": {
+      "release": {
+        "keystore": "f:\\kashifEjaz.keystore",
+        "storePassword": "kashif",
+        "alias": "KashifEjaz",
+        "password": "kashif",
+        "keystoreType": ""
+      }
+     }
+ }

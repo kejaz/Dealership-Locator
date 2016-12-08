@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="scripts/RepTable/LIB2/css/footable.core.css" rel="stylesheet" />
+    <link href="scripts/RepTable/LIB2/css/footable.metro.css" rel="stylesheet" />
+    <link href="scripts/RepTable/LIB2/css/footable-demos.css" rel="stylesheet" />
+</head>
+<body>
+    <div ng-app="TestApp" ng-controller="TestController">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-lg-12">
+                    <button class="btn btn-block btn-primary" ng-click="GetCurrentLocation()"><i class="glyphicon glyphicon-apple"></i> Get Location</button>                    
+                    <span class="label label-pill label-primary">{{LoadTime}}</span>
+                    <div id="map" class="container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+    <script src="scripts/angular-1.4.7/angular.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script src="scripts/test.js"></script>
+    <script type="text/javascript" src="scripts/map.js"></script>
+
+    <link href="scripts/RepTable/LIB2/css/footable.core.css" rel="stylesheet" />
+    <link href="scripts/RepTable/LIB2/css/footable.metro.css" rel="stylesheet" />
+    <link href="scripts/RepTable/LIB2/css/footable-demos.css" rel="stylesheet" />
+
+    <script src="scripts/RepTable/LIB2/js/footable.js"></script>
+    <script src="scripts/RepTable/LIB2/js/footable.sort.js"></script>
+    <script src="scripts/RepTable/LIB2/js/footable.filter.js"></script>
+    <script src="scripts/RepTable/LIB2/js/footable.paginate.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRbLM3bniYwFCVmGvJlJP2LUh36uvi0uw&callback=initMap" async defer></script>
+</body>
+</html>

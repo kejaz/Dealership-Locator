@@ -1,0 +1,33 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+}
+
+#content {
+    background: #FFF;
+}
+
+#toolbar {
+    padding: 5px;
+    background: #E31937;
+    cursor: pointer;
+    color: #FFF;
+}
+
+    #toolbar .toolbaricon {
+        margin-right: 5px;
+    }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.snap-drawer {
+    /*background: #A5ACB0;*/
+    background: #FFF;
+}

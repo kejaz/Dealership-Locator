@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->        
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link href="css/bootstrap.css" rel="stylesheet" />
+        <link href="css/font-awesome.css" rel="stylesheet" />     
+        <link href="scripts/RepTable/LIB2/css/footable.core.css" rel="stylesheet" />
+        <link href="scripts/RepTable/LIB2/css/footable.metro.css" rel="stylesheet" />
+        <link href="scripts/RepTable/LIB2/css/footable-demos.css" rel="stylesheet" />
+                     
+        <title>TESTAPP</title>
+                <!--<style>
+            body {
+               color:#fff; 
+               background-color:#4cc2e4;
+            }
+        </style>-->
+    </head>
+    <body style="background-color:transparent;">   
+        <!--<p>Hello! This is Kashif Ejaz </p>
+        <br/>
+        <p>My first Apache Cordova Application </p>
+        <br />
+        <button id="changeColor">Change Color</button>
+        <input id="btnTakePhoto" type="button" value="Take a Photo"/>
+        <p id="lastPhoto"></p>-->
+        <!--<div class="app">
+            <p id="deviceready" class="event">Hello! This is Kashif Ejaz </p>
+            <br/>
+            <p id="deviceready" class="event">My first Apache Cordova Application </p>
+        </div>-->
+        <a name="top"></a>
+        <div ng-app="helloApp" ng-controller="HttpController">
+            <!--<div class="jumbotron" style="background-color:cadetblue;color:white">
+                <center>                  
+                    <img src="images/icon-36-ldpi.png" />                    
+                    <h1>Dealership Locator</h1>
+                </center>
+            </div>-->      
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                           <img src="images/Suzuki_icon.png" width="25px" height="25px" ng-click="LoadHome();" />                            
+                        </a>                           
+                        <div style="color:white">
+                            Dealership Locator
+                        </div>
+                            <center>
+                                <div style="vertical-align:central; color:darkblue; font-size:medium; font-weight:bold; font-family:SuzukiPROHeadline">
+                                    <!--Pak Suzuki Dealership Locator--> {{Title}}
+                                </div>
+                            </center>                        
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li id="mnu1">                                
+                                <a href="" ng-click="GetCurrentLocation();"><i class="glyphicon glyphicon-map-marker"></i> My Current Location</a>                                
+                            </li>      
+                            <li id="mnu3" class="dropdown">
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-car"></i> Nearby Dealerships <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li id="submenu1"><a href="" ng-click="GetNearByDealerships(5);"><i class="glyphicon glyphicon-hand-right"></i> Top 5 Nearby Dealerships</a></li>
+                                    <li id="submenu2"><a href="" ng-click="GetNearByDealerships(10);"><i class="glyphicon glyphicon-hand-right"></i> Top 10 Nearby Dealerships</a></li>
+                                    <li id="submenu3"><a href="" ng-click="GetNearByDealerships(50);"><i class="glyphicon glyphicon-hand-right"></i> Top 50 Nearby Dealerships</a></li>                              
+                                    <li id="submenu4"><a href="" ng-click="GetNearByDealerships(0);"><i class="glyphicon glyphicon-hand-right"></i> All Dealerships</a></li> 
+                                </ul>
+                            </li>                     
+                        </ul>                                               
+                    </div>
+                </div>
+            </nav>
+            <!--<center>
+                <p style="color:brown; font-family:Verdana; font-size:small">Developed by: {{Name}}</p>
+            </center>-->
+            <div class="row">
+                <div style="height:60px">
+
+                </div>                
+                <div id ="mainPage"class="col-sm-12">
+                    <!--<div>
+                        <input id="numberTxt" placeholder="Enter mobile number" value="03218984836" type="tel" /><br />
+                        <textarea id="messageTxt"  placeholder="Enter message"></textarea><br />
+                        <input type="button" ng-click="sendSms()" value="Send SMS" />
+
+                    </div>-->
+                    <img class="img-responsive" src="images/Suzuki-Logo.jpg" />                 
+                    <div  class="row">
+                        <center>
+                            <span class="label label-primary">Version 1.0 </span>
+                        </center>
+                    </div>                    
+                </div>                
+                <div id="lblDis" style="display:none" class="col-sm-12">
+                    <div class="col-lg-4">
+                        <center>
+                            <button class="btn btn-block btn-primary" ng-click="BackToList()"><i class="glyphicon glyphicon-arrow-left"></i> Back to List</button>
+                        </center>
+                    </div>
+                    <div class="col-sm-4">
+                        <center>
+                            <label class="label label label-pill label-danger">{{Path}}</label>
+                        </center>
+                    </div>
+                    <div class="col-sm-4">                                                
+                        <label id="lblDistance">Distance: </label>
+                        <label id="lbl" style="color:white">***************</label>
+                        <label id="lblDuration">Duration: </label>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-12" style="display:none" id="loadingDealers">
+                <div class="col-xs-4"></div>
+                <div class="col-xs-4">
+                    <i class="fa fa-refresh fa-5x fa-spin"></i> <label class="label label-primary">Loading dealers...</label>
+                </div>
+                <div class="col-xs-4"></div>
+            </div>
+            <div id="dealersList" style="display:none;">
+                <!--<div class="row"> 
+                    <div class="col-sm-12">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-info">{{TitleDealersList}}</li>
+                        </ul>                      
+                    </div>
+                </div>-->
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <!--{{TitleDealersList}}-->
+                        <div class="col-lg-5 input-group custom-search-form">
+                            <input id="inputSearchDocuments" ng-change="TextChange();" type="text" ng-model="filterdealers" class="form-control" placeholder="Type here to search..">
+                            <span class="input-group-btn">
+                                <button class="btn btn-primary" title="Clear Search box" ng-click="clearSearch();"><i class="glyphicon glyphicon-remove-sign"></i></button>
+                                <button class="btn btn-primary" title="Tile View" ng-click="SetView('Tile');"><i class="glyphicon glyphicon-th"></i></button>
+                                <button class="btn btn-primary" title="List View" ng-click="SetView('List');"><i class="glyphicon glyphicon-list"></i></button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <!--<div class="col-sm-6" ng-repeat="dealer in DealersList | orderBy:'DistanceValue' | limitTo:RecordLimit" repeat-end="EnableList()">-->
+                        <div id="TileView">
+                            <div ng-repeat="dealer in DealersListSorted  | filter:filterdealers" repeat-end="EnableList()">
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading GridStyle">
+                                        <span class="badge" style="font-size:smaller">{{$index + 1}}  </span> <strong>{{dealer.DealershipName}}</strong><br />
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-condensed shortMargin GridStyle">
+                                                <tr >
+                                                    <td class="col-lg-2 shortPadding">Address:</td>
+                                                    <td class="col-lg-10 shortPadding">{{dealer.DealershipAddress}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-lg-2 shortPadding">Contact No:</td>
+                                                    <td class="col-lg-10 shortPadding">{{dealer.DealershipContact}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-lg-2 shortPadding">Distance:</td>
+                                                    <td class="col-lg-10 shortPadding">{{dealer.Distance}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="col-lg-2 shortPadding">Duration:</td>
+                                                    <td class="col-lg-10 shortPadding">{{dealer.Duration}}</td>
+                                                </tr>
+
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel-footer clearfix">
+                                        <div class="col-lg-7">
+
+                                        </div>
+                                        <div>
+                                            <div class="col-lg-4">
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <button class="btn btn-xs btn-primary" title="Path" ng-click="GetDealersPath(dealer.DealershipLatitude, dealer.DealershipLongitude,dealer.DealershipName);">Map View </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="ListView">
+                            <div id="DealerList">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="demo">
+                                        <table id="dealerGrid" class="footable" data-page-size="150">
+                                            <thead>
+                                                <tr class="GridStyle">
+                                                    <!--<th data-sort-ignore="true">
+                                                        #
+                                                    </th>-->
+                                                    <th data-sort-ignore="true">
+                                                        Dealer Name
+                                                    </th>
+                                                    <th data-hide="phone,tablet" data-sort-ignore="true">
+                                                        Address
+                                                    </th>
+                                                    <th data-hide="phone,tablet" data-sort-ignore="true">
+                                                        Contact#
+                                                    </th>
+                                                    <th data-sort-ignore="true">
+                                                        Distance
+                                                    </th>                                                    
+                                                    <th data-hide="phone,tablet" data-sort-ignore="true">
+                                                        Duration
+                                                    </th>                                                    
+                                                    <th data-sort-ignore="true">
+                                                        Map View
+                                                    </th>                                                    
+
+                                                </tr>
+                                            </thead>
+                                            <tbody class="GridStyle">
+                                                <tr  ng-repeat="dealer in DealersListSorted  | filter:filterdealers" repeat-end="EnableList()">
+                                                    <!--<td>                                                        
+                                                        {{$index + 1}}
+                                                    </td>-->
+                                                    <td>
+                                                        <span class="badge" style="font-size:smaller;">{{dealer.Index}}  </span>  {{dealer.DealershipName}}
+                                                    </td>
+                                                    <td>
+                                                        {{dealer.DealershipAddress}}
+                                                    </td>
+                                                    <td>
+                                                        {{dealer.DealershipContact}}
+                                                    </td>                                                    
+                                                    <td>
+                                                        {{dealer.Distance}}
+                                                    </td>                                                    
+                                                    <td>
+                                                        {{dealer.Duration}}
+                                                    </td> 
+                                                    <td>
+                                                        <center>
+                                                            <button class="btn btn-xs btn-primary" title="Map View" ng-click="GetDealersPath(dealer.DealershipLatitude, dealer.DealershipLongitude,dealer.DealershipName);"> <i class="glyphicon glyphicon-map-marker"></i> </button>
+                                                        </center>
+                                                    </td>  
+                                                                                                      
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="15">
+                                                        <div style="display:none">
+                                                            <div class="pagination pagination-centered"></div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer clearfix">
+                        <div class="text-center">
+                            <custom-pager page="{{page}}" pages-count="{{pagesCount}}" total-count="{{totalCount}}" search-func="search(page)"></custom-pager>
+                        </div>
+                            <div class="col-lg-1">
+                                <div>
+                                    <center>
+                                        <a href="#top">Back to top of List</a>
+                                    </center>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-lg-12">                                
+                        <div id="map" class="container"></div>            
+                    </div>
+                </div>
+            </div>          
+            <!--<div  class="row">
+                <center>
+                    <span class="label label-primary">Version 1.0 </span>
+                </center>
+            </div>-->          
+        <script src="scripts/jquery-2.1.4/jquery-2.1.4.min.js"></script>
+        <script src="scripts/angular-1.4.7/angular.js"></script>
+        <script src="scripts/bootstrap.js"></script>                         
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+        <script type="text/javascript" src="scripts/map.js"></script>
+        
+        <link href="scripts/RepTable/LIB2/css/footable.core.css" rel="stylesheet" />
+        <link href="scripts/RepTable/LIB2/css/footable.metro.css" rel="stylesheet" />
+        <link href="scripts/RepTable/LIB2/css/footable-demos.css" rel="stylesheet" />
+
+        <script src="scripts/RepTable/LIB2/js/footable.js"></script>
+        <script src="scripts/RepTable/LIB2/js/footable.sort.js"></script>
+        <script src="scripts/RepTable/LIB2/js/footable.filter.js"></script>
+        <script src="scripts/RepTable/LIB2/js/footable.paginate.js"></script>                
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRbLM3bniYwFCVmGvJlJP2LUh36uvi0uw&callback=initMap" async defer></script>                                             
+    </body>
+</html>

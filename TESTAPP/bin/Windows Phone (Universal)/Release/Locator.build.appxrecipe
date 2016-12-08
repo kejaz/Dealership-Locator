@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ITAKSHF289</Machine>
+    <WindowsUser>PKB030157</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>release|arm</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>6cd30210-27e9-11e6-9bd4-639dd364a3b8</PackageIdentityName>
+    <IntermediateOutputPath>E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap-theme.css">
+      <PackagePath>www\css\bootstrap-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap-theme.css.map">
+      <PackagePath>www\css\bootstrap-theme.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap-theme.min.css">
+      <PackagePath>www\css\bootstrap-theme.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap.css">
+      <PackagePath>www\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap.css.map">
+      <PackagePath>www\css\bootstrap.css.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\bootstrap.min.css">
+      <PackagePath>www\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\font-awesome.css">
+      <PackagePath>www\css\font-awesome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\font-awesome.min.css">
+      <PackagePath>www\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\jquery.multilevelpushmenu.css">
+      <PackagePath>www\css\jquery.multilevelpushmenu.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\css\snap.css">
+      <PackagePath>www\css\snap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\customPager.directive.js">
+      <PackagePath>www\customPager.directive.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\fontawesome-webfont.eot">
+      <PackagePath>www\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\fontawesome-webfont.svg">
+      <PackagePath>www\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\fontawesome-webfont.ttf">
+      <PackagePath>www\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\fontawesome-webfont.woff">
+      <PackagePath>www\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\fontawesome-webfont.woff2">
+      <PackagePath>www\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\FontAwesome.otf">
+      <PackagePath>www\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>www\fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>www\fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>www\fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>www\fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>www\fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\icon-36-ldpi.png">
+      <PackagePath>www\images\icon-36-ldpi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\Suzuki-Logo.jpg">
+      <PackagePath>www\images\Suzuki-Logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\SuzukiWayoflifegrays.jpg">
+      <PackagePath>www\images\SuzukiWayoflifegrays.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\SuzukiWayoflifewhites.jpg">
+      <PackagePath>www\images\SuzukiWayoflifewhites.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\images\Suzuki_icon.png">
+      <PackagePath>www\images\Suzuki_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\pager.html">
+      <PackagePath>www\pager.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\src\windows\CameraProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-camera\www\Camera.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\Camera.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-camera\www\CameraConstants.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraConstants.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverHandle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js">
+      <PackagePath>www\plugins\cordova-plugin-camera\www\CameraPopoverOptions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\src\windows\GeolocationProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-geolocation\www\Coordinates.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Coordinates.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-geolocation\www\geolocation.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\geolocation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-geolocation\www\Position.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\Position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\plugins\cordova-plugin-geolocation\www\PositionError.js">
+      <PackagePath>www\plugins\cordova-plugin-geolocation\www\PositionError.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-animate.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-aria.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-aria.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-cookies.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-cookies.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-csp.css">
+      <PackagePath>www\scripts\angular-1.4.7\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-loader.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-loader.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-message-format.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-message-format.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-messages.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-messages.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-mocks.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-mocks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-resource.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-resource.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-route.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-route.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-sanitize.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-scenario.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-scenario.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular-touch.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular-touch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\angular-1.4.7\angular.js">
+      <PackagePath>www\scripts\angular-1.4.7\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\controllers\landing.html">
+      <PackagePath>www\scripts\app\controllers\landing.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\controllers\landing.js">
+      <PackagePath>www\scripts\app\controllers\landing.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\controllers\settings.html">
+      <PackagePath>www\scripts\app\controllers\settings.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\controllers\settings.js">
+      <PackagePath>www\scripts\app\controllers\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\directives\pg.ngdirectives.js">
+      <PackagePath>www\scripts\app\directives\pg.ngdirectives.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\directives\sidebar.html">
+      <PackagePath>www\scripts\app\directives\sidebar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\directives\toolbar.html">
+      <PackagePath>www\scripts\app\directives\toolbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\factories\pg.ngfactories.js">
+      <PackagePath>www\scripts\app\factories\pg.ngfactories.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\pg.ngapp.js">
+      <PackagePath>www\scripts\app\pg.ngapp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\app\pg.ngroute.js">
+      <PackagePath>www\scripts\app\pg.ngroute.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\bootstrap-3.3.5-dist\js\bootstrap.js">
+      <PackagePath>www\scripts\bootstrap-3.3.5-dist\js\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\bootstrap-3.3.5-dist\js\bootstrap.min.js">
+      <PackagePath>www\scripts\bootstrap-3.3.5-dist\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\bootstrap-3.3.5-dist\js\npm.js">
+      <PackagePath>www\scripts\bootstrap-3.3.5-dist\js\npm.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\bootstrap.js">
+      <PackagePath>www\scripts\bootstrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\infobox.js">
+      <PackagePath>www\scripts\infobox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\jquery-1.11.3\jquery-1.11.3.min.js">
+      <PackagePath>www\scripts\jquery-1.11.3\jquery-1.11.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\jquery-2.1.4\jquery-2.1.4.min.js">
+      <PackagePath>www\scripts\jquery-2.1.4\jquery-2.1.4.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\Label.js">
+      <PackagePath>www\scripts\Label.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\map.js">
+      <PackagePath>www\scripts\map.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\markerwithlabel.js">
+      <PackagePath>www\scripts\markerwithlabel.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\multilevelpushmenu-2.1.4\jquery.multilevelpushmenu.min.js">
+      <PackagePath>www\scripts\multilevelpushmenu-2.1.4\jquery.multilevelpushmenu.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\arbitrary_toggle_markup.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\arbitrary_toggle_markup.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\bootstrap-glyphicons.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\bootstrap-glyphicons.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\bootstrap-responsive.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\bootstrap-responsive.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\bootstrap.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\bootstrapSwitch.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\bootstrapSwitch.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\css\footable-demos.css">
+      <PackagePath>www\scripts\RepTable\LIB1\css\footable-demos.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\bootstrap-tab.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\bootstrap-tab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\bootstrapSwitch.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\bootstrapSwitch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\data-generator.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\data-generator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\demos.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\demos.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\jquery-1.11.2.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\jquery-1.11.2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\jquery-1.9.1.min.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\jquery-1.9.1.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\jquery.mockjax.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\jquery.mockjax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB1\js\mustache.js">
+      <PackagePath>www\scripts\RepTable\LIB1\js\mustache.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\fonts\footable.eot">
+      <PackagePath>www\scripts\RepTable\LIB2\css\fonts\footable.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\fonts\footable.svg">
+      <PackagePath>www\scripts\RepTable\LIB2\css\fonts\footable.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\fonts\footable.ttf">
+      <PackagePath>www\scripts\RepTable\LIB2\css\fonts\footable.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\fonts\footable.woff">
+      <PackagePath>www\scripts\RepTable\LIB2\css\fonts\footable.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.core.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.core.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.core.min.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.core.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.metro.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.metro.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.metro.min.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.metro.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.standalone.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.standalone.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\css\footable.standalone.min.css">
+      <PackagePath>www\scripts\RepTable\LIB2\css\footable.standalone.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\.jshintrc">
+      <PackagePath>www\scripts\RepTable\LIB2\js\.jshintrc</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.bookmarkable.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.bookmarkable.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.filter.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.filter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.grid.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.grid.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.memory.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.memory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.paginate.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.paginate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.plugin.template.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.plugin.template.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.sort.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.sort.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\RepTable\LIB2\js\footable.striping.js">
+      <PackagePath>www\scripts\RepTable\LIB2\js\footable.striping.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\snap.js\snap.min.js">
+      <PackagePath>www\scripts\snap.js\snap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\WorkingFolder\Projects\TEST\APCordova\TESTAPP\TESTAPP\platforms\windows\build\windows\release\arm\win10\ilc\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
